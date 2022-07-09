@@ -4,7 +4,7 @@ services:
   todotests:
     image: todotests
     environment:
-      - FRONT_HOST=todofrontend
+      - FRONT_HOST=todofront
     depends_on:
       - todofront
       - todoback
@@ -14,7 +14,7 @@ services:
     ports:
       - 3000:3000
     environment:
-      - REACT_APP_API_HOST=todobackend
+      - REACT_APP_API_HOST=todoback
     depends_on:
       - todoback
 
