@@ -11,7 +11,7 @@ Docker Compose
 ## Instructions to utilize the application
 To use the application, you will need to have [Docker](https://docs.docker.com/engine/install/ubuntu/) installed.
 
-After cloning the repository, you need to use the command `docker-compose up -d` to create and start the container. The command must be done via terminal in the directory where the `docker-compose.yml` file is.
+After cloning the repository, run `npm install` to install the dependencies. You need to use the command `docker-compose up -d` to create and start the container. The command must be done via terminal in the directory where the `docker-compose.yml` file is.
 
 You can use the `npm start` command to display the application page.
 
